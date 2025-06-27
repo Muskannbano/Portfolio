@@ -10,6 +10,7 @@ nav{
     background-color: black;
     z-index: 20;
     background-color: rgb(17, 20, 23);
+     overflow: hidden;
 }
 nav ul a{
     cursor: pointer;
@@ -47,6 +48,7 @@ nav h1{
     flex-direction: column;
     display: none;
     transition: all 0.5s;
+    cursor: pointer;
 }
 .ham{
     width: 40px;

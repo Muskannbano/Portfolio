@@ -4,7 +4,74 @@ import mern from "../../assets/mern.png"
 import c from "../../assets/c++.png"
 import dsa from "../../assets/dsa.png"
 import Card from "../Card/Card"
+import {useGSAP} from '@gsap/react'
+import gsap from 'gsap'
+import {ScrollTrigger} from 'gsap/all'
+gsap.registerPlugin(ScrollTrigger)
 function About() {
+ useGSAP(() => {
+    gsap.from(".circle", {
+      x: -100,
+      duration: 1,
+      opacity: 0,
+        stagger:1,
+      scrollTrigger: {
+        trigger: ".circle",
+        scrub: 2,
+        start: "top 60%",
+        end: "top 30%"
+      }
+    });
+
+    gsap.from(".line", {
+      x: -100,
+      duration: 1,
+      opacity: 0,
+       stagger:1,
+      scrollTrigger: {
+        trigger: ".line",
+        scrub: 2,
+        start: "top 60%",
+        end: "top 30%"
+      }
+    });
+        gsap.from(".about-details h1", {
+      x: -100,
+      duration: 1,
+      opacity: 0,
+       stagger:1,
+      scrollTrigger: {
+        trigger: ".about-details h1",
+        scrub: 2,
+        start: "top 60%",
+        end: "top 30%"
+      }
+    });
+        gsap.from(".about-details ul", {
+      y:100,
+      duration: 1,
+      opacity: 0,
+       stagger:1,
+      scrollTrigger: {
+        trigger: ".about-details ul",
+        scrub: 2,
+        start: "top 60%",
+        end: "top 30%"
+      }
+    });
+    gsap.from(".rightAbout", {
+      x:100,
+      duration: 1,
+      opacity: 0,
+       stagger:1,
+      scrollTrigger: {
+        trigger: ".rightAbout",
+        scrub: 2,
+        start: "top 60%",
+        end: "top 30%"
+      }
+    });
+  });
   return (
     <div id="about">
       <div className="leftAbout">

@@ -16,10 +16,12 @@
     overflow-y: hidden;
     gap: 30px;
     scrollbar-width: none;
+    padding: 20px;
 }
-#projects h1{
+#para{
     font-size: 4vmax;
    background: linear-gradient(to right,rgb(198,50,96),white);
     background-clip: text;
     color: transparent;
+    text-align: center;
 }
