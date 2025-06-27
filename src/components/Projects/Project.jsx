@@ -42,9 +42,9 @@ function Project() {
       <h1 id='para'>My Projects</h1>
       <div className="slider">
         <Card title="WEATHER APP" image={weather} link="https://weather-muskan.netlify.app/"/>
-        <Card  title="TO DO APP" image={todo} link="https://weather-muskan.netlify.app/"/>
-        <Card  title="CAR RACING GAME" image={car} link="https://weather-muskan.netlify.app/"/>
-        <Card  title="TWITTER CLONE" image={twitter} link="https://weather-muskan.netlify.app/"/>
+        <Card  title="TO DO APP" image={todo} link="https://github.com/Muskannbano/Twitter-Clone.git"/>
+        <Card  title="CAR RACING GAME" image={car} link="https://car-racing-game-js.netlify.app/"/>
+        <Card  title="TWITTER CLONE" image={twitter} link="https://muskannbano.github.io/Twitter-Clone/"/>
         <Card  title="EMPLOYEE MANAGEMENT SYSTEM" image={ems} link="https://muskan-ems01.netlify.app/"/>
       </div>
     </div>
