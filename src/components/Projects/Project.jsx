@@ -5,6 +5,7 @@ import todo from "../../assets/Todo.jpeg"
 import car from "../../assets/car.jpg"
 import twitter from "../../assets/twitter.avif"
 import ems from "../../assets/ems.png"
+import world from "../../assets/world.jpg"
 import "./Project.css"
 import {useGSAP} from '@gsap/react'
 import gsap from 'gsap'
@@ -46,6 +47,7 @@ function Project() {
         <Card  title="CAR RACING GAME" image={car} link="https://car-racing-game-js.netlify.app/"/>
         <Card  title="TWITTER CLONE" image={twitter} link="https://muskannbano.github.io/Twitter-Clone/"/>
         <Card  title="EMPLOYEE MANAGEMENT SYSTEM" image={ems} link="https://muskan-ems01.netlify.app/"/>
+        <Card  title="WORLD ATLAS" image={world} link="https://world-info20.netlify.app/"/>
       </div>
     </div>
   )
